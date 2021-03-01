@@ -5,7 +5,7 @@ Behavior of Electronic Target with Angular, Nodejs, Express, MongoDb, Socket.io,
 $ git clone gh repo clone https://github.com/fakhizakaria/QTBehaviorIT.git
 
 # Run the BackEnd
-$ cd backEnd <br>
+$ cd BackEnd <br>
 $ npm install <br>
 $ nodemon index.js
 
