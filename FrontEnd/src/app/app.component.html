@@ -1,0 +1,50 @@
+<div class="dash">
+    <div class="title">
+        <span>behavior of an electronic target: 2D</span>
+    </div>
+    <div class="Board-container">
+        <div class="board">
+            <div class="functions">
+                <div class="DashContent">
+                    <div class="Behead">
+                        <span>
+                            Behavior
+                        </span>
+                    </div>
+                    <div class="coord">
+                        <div class="tar"*ngFor="let target of behavior">
+                            <span>
+                                <div class="col">(</div>{{target.x}} , {{target.y}}<div class="col">)</div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <span>
+                            Total score in (x,y)
+                        </span>
+                        <div class="total">
+                            <div class="col">(</div>{{score.x}} , {{score.y}}<div class="col">)</div>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <span>
+                            Total score in decimal
+                        </span>
+                        <div class="total">
+                            x= {{score.x}} 
+                            y= {{score.y}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerChart">
+              <canvas baseChart
+                [datasets]="bubbleChartData"
+                [options]="bubbleChartOptions"
+                [legend]="bubbleChartLegend"
+                [chartType]="bubbleChartType">
+              </canvas>
+            </div>
+        </div>
+    </div>
+</div>

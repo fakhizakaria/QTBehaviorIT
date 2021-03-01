@@ -1,0 +1,168 @@
+.dash {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+.title span {
+    align-items: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #404E67;
+}
+.Board-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.board {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 4px;
+    background: #fff;
+}
+.functions {
+    width: 30%;
+    height: 100%;
+}
+.containerChart {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.titleFunctions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    border-bottom: 30px solid;
+    align-items: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #404E67;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+.DashContent {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coord {
+    width: 70%;
+    height: 50%;
+    overflow-y: scroll !important;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.score {
+    width: 70%;
+    height: 17%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    border-radius: 4px;
+    background: #404e67;
+    margin-bottom: 20px;
+}
+.score span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+.tar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #404e67;
+    padding: 15px;
+}
+.col {
+    font-size: 20px;
+    font-weight: 700;   
+}
+.tar span {
+    display: flex;
+    align-items: center;
+}
+.score span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.Behead{
+    width: 70%;
+    background-color: #404e67;
+    margin-top: 45px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    height: 40px;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+.total {
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    font-weight: 900;
+}
+
+
+
+// Scroll css.
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    cursor: pointer !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #404e67;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #71819c; 
+    cursor: pointer;
+  }
